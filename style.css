@@ -130,10 +130,161 @@ body {
     border: solid 1px #313131;
 }
 
+.microphone-container {
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+
+    background-color: #181818;
+}
+
 .hr1 {
     position: absolute;
     margin-right: 0px;
+    margin-top: 5px;
     right: 0;
     width: 1650px;
     border: solid 1px #313131;
+}
+
+/* GENERI CONTAINER */
+.generi-container {
+    position: absolute;
+    margin-right: 0px;
+    margin-top: 15px;
+    right: 0;
+    width: 1650px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.genere {
+    margin-top: 4px;
+
+    width: 60px;
+    height: 30px;
+    border: solid 1px #404040;
+    border-radius: 15px;
+    background-color: #373737;
+}
+
+.genere:hover {
+    background-color: white;
+}
+
+.genere-paragrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7px;
+    margin-left: 9px;
+    color: white;
+
+    height: 20px;
+    font-size: 0.9rem;
+}
+
+.genere-paragrafo:hover {
+    color: #373737;
+}
+
+.spazio-genere {
+    width: 10px;
+}
+
+/* VIDEO CONTAINER */
+.video-container {
+    
+    position: absolute;
+    margin-right: 0px;
+    margin-top: 11px;
+    right: 0;
+    width: 1650px;
+    height: 827px;
+
+    background-color: #181818;
+}
+
+.riga-video {
+    display: flex;
+    width: 1500px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.video {
+    margin-top: 5px;
+    width: 360px;
+    height: 290px;
+    cursor: pointer;
+}
+
+.copertina {
+    width: 360px;
+    height: 200px;
+}
+
+.titolo-container {
+    position: relative;
+    margin-top: 5px;
+    width: 360px;
+    height: 80px;
+}
+
+.titolo {
+    position: absolute;
+    top: 0;
+    margin-top: 2px;
+    margin-left: 60px;
+    width: 200px;
+    height: 70px;
+}
+
+/* PULSANTI NAVIGAZIONE */
+.navigazione-container {
+    position: absolute;
+    left: 0;
+    margin-top: -50px;
+    width: 228px;
+    height: 885px;
+}
+
+/* BTN NAVIGAZIONE */
+.btn-navigazione {
+    position: relative;
+    width: 228px;
+    height: 38px;
+    background-color: #202020;
+    color: white;
+
+    border: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: -1px;
+    font-weight: 550;
+}
+
+.btn-navigazione:hover {
+    background-color: #383838;
+}
+
+.btn-content {
+    display: flex;
+    margin-left: 20px;
+    width: 160px;
+    height: 30px;
+}
+
+.btn-scritta {
+    margin-left: 50px;
+    margin-top: 6px;
+}
+
+.icone-navigazione {
+    position: absolute;
+    width: 20px;
+    margin-top: 4px;
 }
